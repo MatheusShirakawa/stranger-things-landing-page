@@ -1,4 +1,4 @@
-# Stranger Things Landing Page
+# Stranger Things Landing Page 🎬🍿
 
 <div><img width="140" height="51" alt="stranger-things" src="https://github.com/user-attachments/assets/c60eff59-eafd-404a-9220-92084f54a7bc" /></div>
 
