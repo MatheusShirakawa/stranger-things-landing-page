@@ -1,5 +1,4 @@
 # Stranger Things Landing Page
-[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/MatheusShirakawa/stranger-things-landing-page)
 
 This repository contains the source code for a dynamic, animated landing page inspired by the Netflix series "Stranger Things." The project is built with Next.js and leverages the GreenSock Animation Platform (GSAP) to create an immersive, scroll-based user experience.
 
