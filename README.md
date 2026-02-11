@@ -1,5 +1,7 @@
 # Stranger Things Landing Page
 
+<div><img width="140" height="51" alt="stranger-things" src="https://github.com/user-attachments/assets/c60eff59-eafd-404a-9220-92084f54a7bc" /></div>
+
 This repository contains the source code for a dynamic, animated landing page inspired by the Netflix series "Stranger Things." The project is built with Next.js and leverages the GreenSock Animation Platform (GSAP) to create an immersive, scroll-based user experience.
 
 ## Features
