@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Stranger Things Landing Page 🎬🍿
+
+<div><img width="140" height="51" alt="stranger-things" src="https://github.com/user-attachments/assets/c60eff59-eafd-404a-9220-92084f54a7bc" /></div>
+
+This repository contains the source code for a dynamic, animated landing page inspired by the Netflix series "Stranger Things." The project is built with Next.js and leverages the GreenSock Animation Platform (GSAP) to create an immersive, scroll-based user experience.
+
+## Features
+
+*   **Immersive Animations**: Utilizes GSAP for a wide range of animations, including:
+    *   A custom SVG preloader with a drawing effect.
+    *   Smooth scrolling with parallax effects powered by `ScrollSmoother`.
+    *   Scroll-triggered animations that reveal elements as the user navigates the page.
+    *   Character-level text animations using `SplitText` for a dramatic effect.
+*   **Thematic Design**: Faithfully recreates the iconic "Stranger Things" aesthetic with a dark theme, the "Benguiat" font, and moody background imagery.
+*   **Responsive Layout**: The UI is fully responsive, adapting seamlessly from desktop to mobile devices using Tailwind CSS and custom media queries.
+*   **Component-Based Architecture**: Built with React and the Next.js App Router, the project is structured into logical, reusable components for different sections like the hero, footer, and testimonials.
+
+## Tech Stack
+
+*   **Framework**: [Next.js](https://nextjs.org/) 16
+*   **Language**: [TypeScript](https://www.typescriptlang.org/)
+*   **Styling**: [Tailwind CSS](https://tailwindcss.com/) 4
+*   **Animation**: [GSAP (GreenSock Animation Platform)](https://gsap.com/)
+    *   `@gsap/react` for React integration
+    *   `ScrollTrigger` for scroll-based animations
+    *   `ScrollSmoother` for smooth parallax scrolling
+    *   `SplitText` for advanced text animations
+*   **Linting**: [ESLint](https://eslint.org/)
 
 ## Getting Started
 
-First, run the development server:
+To run this project locally, follow the steps below.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+*   Node.js (v20 or later)
+*   npm, yarn, or pnpm
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Installation & Setup
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1.  **Clone the repository:**
+    ```sh
+    git clone https://github.com/matheusshirakawa/stranger-things-landing-page.git
+    ```
 
-## Learn More
+2.  **Navigate to the project directory:**
+    ```sh
+    cd stranger-things-landing-page
+    ```
 
-To learn more about Next.js, take a look at the following resources:
+3.  **Install the dependencies:**
+    ```sh
+    npm install
+    # or
+    yarn install
+    # or
+    pnpm install
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4.  **Run the development server:**
+    ```sh
+    npm run dev
+    ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Open [http://localhost:3000](http://localhost:3000) in your browser to see the live application. The page will auto-update as you edit the source files.
 
-## Deploy on Vercel
+## Available Scripts
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project includes the following scripts defined in `package.json`:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+*   `npm run dev`: Starts the development server.
+*   `npm run build`: Builds the application for production.
+*   `npm run start`: Starts the production server after a build.
+*   `npm run lint`: Runs ESLint to check for code quality and style issues.
