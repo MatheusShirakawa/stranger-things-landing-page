@@ -1,18 +1,18 @@
 'use client'
 
-import Header from "./components/header";
-import Hero from "./components/hero";
-import Monster from "./components/monster";
-import Grateful from "./components/gratefull";
-import Footer from "./components/footer";
-import Preloader from "./components/preloader";
+import Header from "@/components/header";
+import Hero from "@/components/hero";
+import Monster from "@/components/monster";
+import Grateful from "@/components/gratefull";
+import Footer from "@/components/footer";
+import Preloader from "@/components/preloader";
 
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { ScrollSmoother } from "gsap/ScrollSmoother";
 import { useEffect } from "react";
-import { animatePage } from "./functions/animate-page";
+import { animatePage } from "@/functions/animate-page";
 
 export default function Home() {
 
